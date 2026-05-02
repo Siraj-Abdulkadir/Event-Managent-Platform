@@ -1,21 +1,14 @@
-'use client'
-
-import {
-  Box,
-  Container,
-  Heading,
-  Text,
-  Button,
-  SimpleGrid,
-  Card,
-  VStack,
-} from '@chakra-ui/react'
-import Link from 'next/link'
-
+import Navbar from "@/components/layout/Navbar";
+import Hero from "@/components/layout/Hero";
+import FeaturedEvents from "@/components/layout/FeaturedEvents";
+import Footer from "@/components/layout/Footer";
 export default function Home() {
   return (
-    <Box minH="100vh">
-
-    </Box>
-  )
+    <>
+      <Navbar />
+      <Hero />
+      <FeaturedEvents />
+      <Footer />
+    </>
+  );
 }

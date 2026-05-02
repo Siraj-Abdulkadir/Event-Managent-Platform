@@ -1,0 +1,32 @@
+export const events = [
+  {
+    id: "1",
+    title: "Tech Conference 2026",
+    location: "Addis Ababa",
+    date: "May 10",
+    image: "https://via.placeholder.com/800x400",
+    price: "Free",
+    category: "Tech",
+    description: "A conference about the latest in technology and innovation.",
+  },
+  {
+    id: "2",
+    title: "Music Festival",
+    location: "Bahir Dar",
+    date: "June 2",
+    image: "https://via.placeholder.com/800x400",
+    price: "$20",
+    category: "Music",
+    description: "Enjoy live performances from top artists.",
+  },
+  {
+    id: "3",
+    title: "Startup Meetup",
+    location: "Adama",
+    date: "July 15",
+    image: "https://via.placeholder.com/800x400",
+    price: "$5",
+    category: "Business",
+    description: "Network with founders and entrepreneurs.",
+  },
+];
